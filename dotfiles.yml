@@ -1,0 +1,28 @@
+---
+- name: Manage dotfiles
+  hosts: localhost
+  vars:
+    dotfiles:
+      - { name: ".bashrc", target: "~/.bashrc" }
+      - { name: ".vimrc", target: "~/.vimrc" }
+      - { name: ".gitconfig", target: "~/.gitconfig" }
+    dotfiles_dir: "~/dotfiles"
+  tasks:
+    - name: Backup and symlink dotfiles
+      block:
+        - name: Check if target file exists
+          stat:
+            path: "{{ item.target }}"
+          register: target_file
+
+        - name: Backup existing target file
+          command: "mv {{ item.target }} {{ item.target }}_backup"
+          when: target_file.stat.exists
+
+        - name: Create symbolic link
+          file:
+            src: "{{ dotfiles_dir }}/{{ item.name }}"
+            dest: "{{ item.target }}"
+            state: link
+      loop: "{{ dotfiles }}"
+
