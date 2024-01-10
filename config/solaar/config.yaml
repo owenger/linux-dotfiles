@@ -1,0 +1,196 @@
+- 1.1.8
+- _NAME: MX Keys Keyboard
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed, dpi, speed-change, backlight-timed, reprogrammable-keys, persistent-remappable-keys,
+    crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _battery: 4096
+  _modelId: B35B408A0000
+  _serial: 831119AF
+  _unitId: 831119AF
+  _wpid: 408A
+  backlight: true
+  change-host: null
+  disable-keyboard-keys: {1: false, 2: false, 4: false, 8: false, 16: false}
+  divert-keys: {10: 0, 110: 0, 111: 0, 191: 0, 199: 0, 200: 0, 209: 0, 210: 0, 211: 0, 224: 0, 225: 0, 226: 0, 227: 0, 228: 0, 229: 0, 230: 0, 231: 0, 232: 0,
+    233: 0, 234: 0, 235: 0, 236: 0}
+  fn-swap: true
+  multiplatform: 0
+- _NAME: Wireless Mouse MX Master 2S
+  _absent: [hi-res-scroll, lowres-scroll-mode, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed, speed-change, backlight,
+    backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform,
+    gesture2-params, sidetone, equalizer]
+  _battery: 4096
+  _modelId: B01940690000
+  _sensitive: {smart-shift: true}
+  _serial: 5274FDFA
+  _unitId: 399F869F
+  _wpid: '4069'
+  change-host: null
+  divert-keys: {82: 0, 83: 0, 86: 0, 195: 0, 196: 0}
+  dpi: 1000
+  gesture2-divert: {46: false}
+  gesture2-gestures: {45: true, 46: true}
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: true
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 195: 195, 196: 196}
+  scroll-ratchet: 2
+  smart-shift: 48
+- _NAME: 'G Pro '
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, pointer_speed, speed-change, backlight, backlight-timed, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys, disable-keyboard-keys,
+    crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone,
+    equalizer]
+  _battery: 4097
+  _modelId: 4079C0880000
+  _serial: 8CDE8E55
+  _unitId: 8CDE8E55
+  _wpid: '4079'
+  dpi: 800
+  onboard_profiles: 1
+  report_rate: 1
+- _NAME: GPro Gaming Mouse
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, pointer_speed, speed-change, backlight, backlight-timed, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys, disable-keyboard-keys,
+    crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone,
+    equalizer]
+  _battery: 4097
+  _modelId: 4079C0880000
+  _unitId: 8CDE8E55
+  dpi: 800
+  onboard_profiles: 1
+  report_rate: 1
+- _NAME: Marathon Mouse M705 (M-R0073)
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, dpi,
+    speed-change, backlight, backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds,
+    mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _battery: 4096
+  _modelId: 406D00000000
+  _serial: C20D76A7
+  _unitId: 7F5DDD30
+  _wpid: 406D
+  divert-keys: {82: 0, 83: 0, 86: 0, 91: 0, 93: 0}
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: true
+  pointer_speed: 256
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 91: 91, 93: 93}
+- _NAME: Marathon Mouse M705 (M-R0073)
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, dpi,
+    speed-change, backlight, backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds,
+    mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _battery: 4096
+  _modelId: 406D00000000
+  _serial: D6294310
+  _unitId: C76F2410
+  _wpid: 406D
+  divert-keys: {82: 0, 83: 0, 86: 0, 91: 0, 93: 0}
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: true
+  pointer_speed: 256
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 91: 91, 93: 93}
+- _NAME: Wireless Mouse MX Master 2S
+  _absent: [hi-res-scroll, lowres-scroll-mode, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed, speed-change, backlight,
+    backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform,
+    gesture2-params, sidetone, equalizer]
+  _battery: 4096
+  _modelId: B01940690000
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: true, hires-smooth-resolution: true, scroll-ratchet: true, smart-shift: false}
+  _serial: 969559CF
+  _unitId: 63C5F67F
+  _wpid: '4069'
+  change-host: null
+  divert-keys: {82: 0, 83: 0, 86: 0, 195: 0, 196: 0}
+  dpi: 1000
+  gesture2-divert: {46: false}
+  gesture2-gestures: {45: true, 46: true}
+  hires-scroll-mode: null
+  hires-smooth-invert: false
+  hires-smooth-resolution: true
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 195: 195, 196: 196}
+  scroll-ratchet: 2
+  smart-shift: 48
+- _NAME: Marathon Mouse M705 (M-R0073)
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, dpi,
+    speed-change, backlight, backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds,
+    mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _battery: 4096
+  _modelId: 406D00000000
+  _serial: A13D34F2
+  _unitId: 93C59A95
+  _wpid: 406D
+  divert-keys: {82: 0, 83: 0, 86: 0, 91: 0, 93: 0}
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: true
+  pointer_speed: 256
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 91: 91, 93: 93}
+- _NAME: Wireless Illuminated Keyboard K800 new
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed, dpi, speed-change, backlight, reprogrammable-keys, persistent-remappable-keys, crown-smooth,
+    divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _battery: 4096
+  _modelId: 406E00000000
+  _serial: 4294EE6E
+  _unitId: 456BDC9A
+  _wpid: 406E
+  backlight-timed: 60
+  disable-keyboard-keys: {1: false, 2: false, 4: false, 8: false, 16: false}
+  divert-keys: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 8: 0, 10: 0, 14: 0, 34: 0, 40: 0, 62: 0, 64: 0, 226: 0, 227: 0}
+  fn-swap: false
+- _NAME: M500S Mouse
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed,
+    speed-change, backlight, backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds,
+    mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _battery: 0
+  _modelId: C09300000000
+  _unitId: '25003700'
+  divert-keys: {82: 0, 83: 0, 86: 0, 91: 0, 93: 0}
+  dpi: 1000
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: false
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 91: 91, 93: 93}
+- _NAME: Marathon Mouse M705 (M-R0073)
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, dpi,
+    speed-change, backlight, backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds,
+    mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _battery: 4096
+  _serial: 8700019A
+  _wpid: 406D
+  divert-keys: {82: 0, 83: 0, 86: 0, 91: 0, 93: 0}
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: true
+  pointer_speed: 256
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 91: 91, 93: 93}
+- _NAME: MX Keys Keyboard
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed, dpi, speed-change, backlight-timed, reprogrammable-keys, persistent-remappable-keys,
+    crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _battery: 4096
+  _modelId: B35B408A0000
+  _serial: 5480C989
+  _unitId: 5480C989
+  _wpid: 408A
+  backlight: true
+  change-host: null
+  disable-keyboard-keys: {1: false, 2: false, 4: false, 8: false, 16: false}
+  divert-keys: {10: 0, 110: 0, 111: 0, 191: 0, 199: 0, 200: 0, 209: 0, 210: 0, 211: 0, 224: 0, 225: 0, 226: 0, 227: 0, 228: 0, 229: 0, 230: 0, 231: 0, 232: 0,
+    233: 0, 234: 0, 235: 0, 236: 0}
+  fn-swap: true
+  multiplatform: 0
+- _NAME: M500S Mouse
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed,
+    speed-change, backlight, backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds,
+    mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _battery: 0
+  _modelId: C09300000000
+  _unitId: 30004E00
+  divert-keys: {82: 0, 83: 0, 86: 0, 91: 0, 93: 0}
+  dpi: 1000
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: false
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 91: 91, 93: 93}

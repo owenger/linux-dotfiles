@@ -1,0 +1,100 @@
+############# miscellaneous #############
+
+Host cable
+    User root
+    HostName 192.168.2.1
+    CheckHostIP no
+    StrictHostKeyChecking no
+
+Host local
+    User root
+    HostName 10.0.0.1
+    CheckHostIP no
+    StrictHostKeyChecking no
+
+Host registry
+    User root
+    Hostname registry.kemaro.ch
+    CheckHostIP no
+    StrictHostKeyChecking no
+    Port 2222
+
+Host service
+    User root
+    Hostname localhost
+    CheckHostIP no
+    StrictHostKeyChecking no
+    Port 8083
+
+Host docker
+    User root
+    Hostname localhost
+    CheckHostIP no
+    StrictHostKeyChecking no
+    Port 11312
+
+Host github.com
+    HostName github.com
+    user git
+    IdentityFile ~/.ssh/id_ed25519
+
+Host bitbucket.org
+    AddressFamily inet
+    HostName bitbucket.org
+    user git
+    IdentityFile ~/.ssh/id_ed25519
+
+
+############# second robot series #############
+
+Host heimdall
+    User root
+    HostName heimdall.robot.kemaro.net
+    StrictHostKeyChecking no
+
+Host hulk
+    User root
+    HostName hulk.robot.kemaro.net
+    StrictHostKeyChecking no
+
+Host thor
+    User root
+    HostName thor.robot.kemaro.net
+    StrictHostKeyChecking no
+
+Host ironman
+    User root
+    HostName ironman.robot.kemaro.net
+    StrictHostKeyChecking no
+
+Host xavier
+    User root
+    HostName xavier.robot.kemaro.net
+    StrictHostKeyChecking no
+
+Host takeshi
+    User root
+    HostName takeshi.robot.kemaro.net
+    StrictHostKeyChecking no
+
+Host vision
+    User root
+    HostName vision.robot.kemaro.net
+    StrictHostKeyChecking no
+
+Host loki
+    User root
+    HostName loki.robot.kemaro.net
+    StrictHostKeyChecking no
+
+Host amcl
+    User oli
+    HostName 192.168.50.74
+    forwardagent yes
+    StrictHostKeyChecking no
+
+Host astf-test
+    User user
+    HostName 192.168.50.67
+    forwardagent yes
+    StrictHostKeyChecking no

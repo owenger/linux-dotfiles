@@ -3,26 +3,35 @@
   hosts: localhost
   vars:
     dotfiles:
-      - { name: ".bashrc", target: "~/.bashrc" }
-      - { name: ".vimrc", target: "~/.vimrc" }
-      - { name: ".gitconfig", target: "~/.gitconfig" }
-    dotfiles_dir: "~/dotfiles"
+      - { name: "home/.bashrc", target: "~/.bashrc", type: "file" }
+      - { name: "home/.bash_aliases", target: "~/.bash_aliases", type: "file" }
+      - { name: "home/.zshrc", target: "~/.zshrc", type: "file" }
+      - { name: "home/.oh-my-zsh", target: "~/.oh-my-zsh", type: "directory" }
+      - { name: "home/.fonts", target: "~/.fonts", type: "directory" }
+      - { name: "home/.fontconfig", target: "~/.fontconfig", type: "directory" }
+      - { name: "config/i3", target: "~/.config/i3", type: "directory" }
+      - { name: "config/nvim", target: "~/.config/nvim", type: "directory" }
+      - { name: "config/solaar", target: "~/.config/solaar", type: "directory" }
+      - { name: "config/Thunar", target: "~/.config/Thunar", type: "directory" }
+      - { name: "ssh/config", target: "~/.ssh/config", type: "file" }
+    dotfiles_dir: "~/git/linux-dotfiles"
   tasks:
-    - name: Backup and symlink dotfiles
-      block:
-        - name: Check if target file exists
-          stat:
-            path: "{{ item.target }}"
-          register: target_file
+    - name: Check if target file/directory exists
+      stat:
+        path: "{{ item.target }}"
+      register: target_file
+      loop: "{{ dotfiles }}"
 
-        - name: Backup existing target file
-          command: "mv {{ item.target }} {{ item.target }}_backup"
-          when: target_file.stat.exists
+    - name: Backup existing target file/directory
+      command: "mv {{ item.0.target }} {{ item.0.target }}_backup"
+      loop: "{{ dotfiles | zip(target_file.results) | list }}"
+      when: item.1.stat.exists
 
-        - name: Create symbolic link
-          file:
-            src: "{{ dotfiles_dir }}/{{ item.name }}"
-            dest: "{{ item.target }}"
-            state: link
+    - name: Create symbolic link for file or directory
+      file:
+        src: "{{ dotfiles_dir }}/{{ item.name }}"
+        dest: "{{ item.target }}"
+        state: link
+        force: yes
       loop: "{{ dotfiles }}"
 
