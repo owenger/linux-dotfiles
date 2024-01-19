@@ -33,10 +33,16 @@ Host docker
     StrictHostKeyChecking no
     Port 11312
 
-Host github.com
+Host github.com-work
     HostName github.com
     user git
     IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes
+
+Host github.com-personal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa
 
 Host bitbucket.org
     AddressFamily inet

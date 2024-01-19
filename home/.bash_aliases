@@ -1,5 +1,6 @@
 alias cdd="cd ~/git/robotics_software"
 alias dcu="docker-compose up"
+alias dcud="docker-compose up -d"
 alias senter="sh ~/git/robotics_software/enter.sh"
 
 # git commands
@@ -18,13 +19,19 @@ alias killdockers='dps=$(dps); docker stop ${dps} && docker rm ${dps}'
 alias stopdockers='docker stop $(docker ps -a -q)'
 
 # set mtu to 1450 for specific network interface
-setmtu() {
+setmtu_interface() {
 	if [ "$#" -ne 1 ]; then
 		echo "Usage: setmtu <interface>"
 		return 1
 	fi
 
 	sudo ip link set dev "$1" mtu 1450
+}
+
+setmtu() {
+  local interface_name=$(ip -br -4 a | grep -oP 'wlp\S+')
+  sudo ip link set dev "$interface_name" mtu 1450
+  echo "Set interface $interface_name mtu to 1450"
 }
 
 # Replace a text-based key-value pair in a file with a different value.

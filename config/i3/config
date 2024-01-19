@@ -18,6 +18,7 @@ font pango:System SanFrancisco Display 9
 exec_always feh --bg-scale /home/oli/Pictures/Wallpapers/wallpaper_firewatch.jpg
 exec compton -f
 exec flameshot
+exec_always --no-startup-id ~/.config/i3/scripts/display_setup.sh
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
