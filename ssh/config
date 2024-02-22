@@ -11,6 +11,8 @@ Host local
     HostName 10.0.0.1
     CheckHostIP no
     StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
 
 Host registry
     User root
@@ -57,41 +59,64 @@ Host heimdall
     User root
     HostName heimdall.robot.kemaro.net
     StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
 
 Host hulk
     User root
     HostName hulk.robot.kemaro.net
     StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
 
 Host thor
     User root
     HostName thor.robot.kemaro.net
     StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
 
 Host ironman
     User root
     HostName ironman.robot.kemaro.net
     StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
 
 Host xavier
     User root
     HostName xavier.robot.kemaro.net
     StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
 
 Host takeshi
     User root
     HostName takeshi.robot.kemaro.net
     StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
 
 Host vision
     User root
     HostName vision.robot.kemaro.net
     StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
 
 Host loki
     User root
     HostName loki.robot.kemaro.net
     StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
+
+Host kemaro022
+    User root
+    HostName kemaro022.robot.kemaro.net
+    StrictHostKeyChecking no
+    CertificateFile=~/.ssh/oli.crt
+    IdentityFile=~/.ssh/oli.key
 
 Host amcl
     User oli
