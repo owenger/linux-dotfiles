@@ -231,8 +231,8 @@ bindsym Print exec screenshot
 bindsym $mod+d exec rofi -show run
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec brightnessctl set -10%
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
