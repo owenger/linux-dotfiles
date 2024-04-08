@@ -122,3 +122,4 @@ export PATH="$PATH:/usr/local/nvim-linux64/bin"
 # environment variables
 export RC_PREFIX="/web/config/rc-kemaro"
 . "$HOME/.cargo/env"
+export APPMANAGER_CLI_HOME=/home/oli/Downloads/AppManager
