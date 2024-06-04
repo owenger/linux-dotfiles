@@ -28,6 +28,12 @@ Host service
     StrictHostKeyChecking no
     Port 8083
 
+Host wireguard
+    HostName 10.42.42.2
+    User root
+    Port 22
+    CertificateFile=~/.ssh/oli.crt
+
 Host docker
     User root
     Hostname localhost
