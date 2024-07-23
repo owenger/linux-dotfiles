@@ -18,8 +18,11 @@ alias killdockers='dps=$(dps); docker stop ${dps} && docker rm ${dps}'
 # Stop all docker containers
 alias stopdockers='docker stop $(docker ps -a -q)'
 
+# set audio input/output
+alias setsound='pavucontrol'
+
 # set mtu to 1450 for specific network interface
-setmtu_interface() {
+netmtu_interface() {
 	if [ "$#" -ne 1 ]; then
 		echo "Usage: setmtu <interface>"
 		return 1
@@ -33,6 +36,10 @@ setmtu() {
   sudo ip link set dev "$interface_name" mtu 1450
   echo "Set interface $interface_name mtu to 1450"
 }
+
+# move the wg0.conf file for wireguard connection to correct place
+alias mvwg='sudo mv ~/Downloads/wg0.conf /etc/wireguard'
+alias sswg='sudo wg-quick down wg0; sudo wg-quick up wg0'
 
 # Replace a text-based key-value pair in a file with a different value.
 #

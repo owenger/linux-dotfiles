@@ -24,8 +24,8 @@ Host registry
 Host service
     User root
     Hostname localhost
-    CheckHostIP no
-    StrictHostKeyChecking no
+    CertificateFile=~/.ssh/robot.crt
+    IdentityFile=~/.ssh/robot.key
     Port 8083
 
 Host wireguard
