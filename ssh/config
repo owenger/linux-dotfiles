@@ -57,7 +57,7 @@ Host bitbucket.org
     AddressFamily inet
     HostName bitbucket.org
     user git
-    IdentityFile ~/.ssh/id_ed25519
+    IdentityFile ~/.ssh/id_rsa
 
 
 ############# second robot series #############

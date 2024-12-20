@@ -1,6 +1,6 @@
 alias cdd="cd ~/git/robotics_software"
-alias dcu="docker-compose up"
-alias dcud="docker-compose up -d"
+alias dcu="docker compose up"
+alias dcud="docker compose up -d"
 alias senter="sh ~/git/robotics_software/enter.sh"
 
 # git commands

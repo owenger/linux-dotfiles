@@ -121,3 +121,4 @@ export PATH="$PATH:/usr/local/nvim-linux64/bin"
 
 # environment variables
 export APPMANAGER_CLI_HOME=/home/oli/Downloads/AppManager
+. "$HOME/.cargo/env"
