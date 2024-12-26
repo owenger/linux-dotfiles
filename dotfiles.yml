@@ -18,6 +18,7 @@
       - { name: "config/sway", target: "~/.config/sway", type: "directory" }
       - { name: "config/kitty", target: "~/.config/kitty", type: "directory" }
       - { name: "config/wofi", target: "~/.config/wofi", type: "directory" }
+      - { name: "config/wallpapers", target: "~/.config/wallpapers", type: "directory" }
       - { name: "ssh/config", target: "~/.ssh/config", type: "file" }
       - { name: "config/tmux.conf", target: "~/.config/tmux/tmux.conf", type: "file" }
     dotfiles_dir: "~/git/linux-dotfiles"
