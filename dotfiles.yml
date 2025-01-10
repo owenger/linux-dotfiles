@@ -6,6 +6,7 @@
       - { name: "home/.bashrc", target: "~/.bashrc", type: "file" }
       - { name: "home/.bash_aliases", target: "~/.bash_aliases", type: "file" }
       - { name: "home/.zshrc", target: "~/.zshrc", type: "file" }
+      - { name: "home/.ideavimrc", target: "~/.ideavimrc", type: "file" }
       - { name: "home/.oh-my-zsh", target: "~/.oh-my-zsh", type: "directory" }
       - { name: "home/.fonts", target: "~/.fonts", type: "directory" }
       - { name: "home/.fontconfig", target: "~/.fontconfig", type: "directory" }
