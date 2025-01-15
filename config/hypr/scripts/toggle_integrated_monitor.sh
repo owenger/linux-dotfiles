@@ -1,5 +1,5 @@
 #!/bin/bash
-DISPLAY_NAME="eDP-1"  # Replace with the actual name of your integrated display
+DISPLAY_NAME="eDP-1"
 STATUS=$(hyprctl monitors | grep "$DISPLAY_NAME")
 
 if [[ -n "$STATUS" ]]; then
