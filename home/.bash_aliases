@@ -1,7 +1,7 @@
 alias cdd="cd ~/git/robotics_software"
 alias cdw="cd ~/git/wedding-jessi-oli/"
-alias dcu="docker compose up"
-alias dcud="docker compose up -d"
+alias dcu="docker compose up --remove-orphans"
+alias dcud="docker compose up -d --remove-orphans"
 alias senter="sh ~/git/robotics_software/enter.sh"
 
 # git commands
@@ -21,6 +21,9 @@ alias stopdockers='docker stop $(docker ps -a -q)'
 
 # set audio input/output
 alias setsound='pavucontrol'
+
+# remove docker network cache
+alias rmdockernet='sudo rm -rf /var/lib/docker/network'
 
 # set mtu to 1450 for specific network interface
 netmtu_interface() {
