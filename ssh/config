@@ -59,6 +59,11 @@ Host bitbucket.org
     user git
     IdentityFile ~/.ssh/id_rsa
 
+Host services
+    HostName 10.10.10.117
+    User admin
+    IdentityFile ~/.ssh/id_pve_admin
+
 
 ############# second robot series #############
 
