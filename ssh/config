@@ -28,7 +28,7 @@ Host service
     IdentityFile=~/.ssh/robot.key
     Port 8083
 
-Host wireguard
+Host wg
     HostName 10.42.42.2
     User root
     Port 22
@@ -64,6 +64,10 @@ Host services
     User admin
     IdentityFile ~/.ssh/id_pve_admin
 
+Host sim-pg
+    HostName 10.10.10.118
+    User admin
+    IdentityFile ~/.ssh/id_pve_admin
 
 ############# second robot series #############
 

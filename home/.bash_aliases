@@ -2,6 +2,7 @@ alias cdd="cd ~/git/robotics_software"
 alias cdw="cd ~/git/wedding-jessi-oli/"
 alias dcu="docker compose up --remove-orphans"
 alias dcud="docker compose up -d --remove-orphans"
+alias dcd="docker compose down"
 alias senter="sh ~/git/robotics_software/enter.sh"
 
 # git commands
