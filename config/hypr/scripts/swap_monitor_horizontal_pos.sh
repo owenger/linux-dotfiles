@@ -31,5 +31,5 @@ echo "Swapping monitor positions:"
 echo "${MONITORS[0]} => ${RES0} at ${WIDTH0}x0"
 echo "${MONITORS[1]} => ${RES2} at 0x0"
 
-hyprctl keyword monitor "${MONITORS[0]},preferred,${WIDTH0}x0"
+hyprctl keyword monitor "${MONITORS[0]},preferred,${WIDTH1}x0"
 hyprctl keyword monitor "${MONITORS[1]},preferred,0x0"
