@@ -27,8 +27,9 @@ RES1=$(get_resolution "${MONITORS[1]}")
 
 WIDTH0=$(echo "$RES0" | cut -d',' -f1)
 
+echo "Monitors ${MONITORS[@]}"
 echo "Swapping monitor positions:"
-echo "${MONITORS[0]} => ${RES0} at ${WIDTH0}x0"
+echo "${MONITORS[0]} => ${RES0} at ${WIDTH1}x0"
 echo "${MONITORS[1]} => ${RES2} at 0x0"
 
 hyprctl keyword monitor "${MONITORS[0]},preferred,${WIDTH1}x0"
